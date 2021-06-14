@@ -4,10 +4,10 @@
 </br>
 
 ## JAVA
-- [Level1](./java/level1.md)
+- [Level1](./Java/level1.md)
     - 2021.06.14 누적 5개 commit
 - Level2
 
 ## Kotlin
-- [Level1](./kotlin/level1.md)
+- [Level1](./Kotlin/level1.md)
     - 2021.06.14 누적 3개 commit

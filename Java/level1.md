@@ -16,11 +16,11 @@
 - 이상한 문자 만들기
 - 약수의 합
 - 시저 암호
-- 문자열을 정수로 바꾸기
+- [문자열을 정수로 바꾸기](#문자열을-정수로-바꾸기)
 - [수박수박수박수박수박수?](#수박수박수박수박수박수)
 - 소수 찾기
 - 서울에서 김서방 찾기
-- 문자열 다루기 기본
+- [문자열 다루기 기본](#문자열-다루기-기본)
 - 문자열 내림차순으로 배치하기
 - 문자열 내 p와 y의 개수
 - 문자열 내 마음대로 정렬하기
@@ -49,7 +49,11 @@
 - 신규 아이디 추천
 - 크레인 인형뽑기 게임
 
-</br>
+<br>
+
+----
+
+<br>
 
 # [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12954)
 ## 문제 설명
@@ -62,8 +66,11 @@
 |   입력예시  |              출력예시             |
 | :---------: | :------------------------------: |
 |     5 3     |    ***** </br>***** </br>*****   |
-----------
-## 나의 풀이
+
+<br>
+
+
+## ***나의 풀이***
 1. for문
 ```java
 class Solution {
@@ -80,7 +87,11 @@ class Solution {
 	}
 }
 ```
-## JAVA1 코드 정리
+
+<br>
+
+
+## ***JAVA1 코드 정리***
 1. StringBuilder에 하나씩 넣고 toString으로 string형 출력
 ```java
 class Solution {
@@ -101,8 +112,11 @@ class Solution {
 상대적으로 쉬운 코드였고, 확실히 코드가 간결했다.
 for문으로 다 출력하는 방법도 있고 StringBuilder를 써도 되는구나를 알게되었다.
 
-</br>
-</br>
+<br>
+
+----
+
+<br>
 
 # [x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954)
 ## 문제 설명
@@ -118,8 +132,10 @@ for문으로 다 출력하는 방법도 있고 StringBuilder를 써도 되는구
 |  2  |   5  | [2,4,6,8,10] |
 |  4  |   3  |   [4,8,12]   |
 | -4  |   2  |    [-4,-8]   |
-----------
-## 나의 풀이
+
+<br>
+
+## ***나의 풀이***
 1. 처음 입력될 [0]의 자리는 입력받은 x를 넣는다.
 2. 그 다음 answer[0]만큼 증가시켜 n개의 숫자를 배열 안에 넣는다.
 ```java
@@ -138,8 +154,101 @@ class Solution {
 배열의 개념을 알고 있고 반복문을 제대로 사용할 줄 안다면 누구나 풀 수 있는 문제였다.
 나 외에 다른 코드들도 보았지만, 대부분 비슷하게 코딩하였다.
 
-</br>
-</br>
+<br>
+
+---
+
+<br>
+
+# [문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918)
+## 문제 설명
+문자열 s의 길이가 4 혹은 6이고, 숫자로만 구성되어있는지 확인해주는 함수, solution 완성하세요.
+예를 들어 s가 “a234”이면 False를 리턴하고 “1234”이면 True를 리턴하면 됩니다.
+## 제한 조건
++ s는 길이 1 이상, 길이 8 이하인 문자열입니다.
+## ​입출력 예
+
+|     s    |  return  |
+| :------: | :------: |
+|  "a1234" |  false   |
+|   "1234  |   true   |
+
+<br>
+
+## ***나의 풀이***
+1. try~catch문을 이용하여 숫자로 바꾸다가 오류가 나면 false를 리턴하고 오류가 안나면 true 리턴
+```java
+class Solution {
+	public static boolean solution (String s) {
+		boolean answer = true;
+		if (s.length()==4 || s.length()==6) {
+			try {
+				Integer.parseInt(s);
+				answer = true;
+			} catch(NumberFormatException e) { // 문자 포함됨
+				answer = false;
+			}
+		} else answer = false;
+		return answer;
+	}
+}
+```
+> comment
+```java
+try {
+	에러가 발생할 수 있는 코드
+	throw new Exception(); // 강제 에러 출력
+} catch (Exception e) {
+	e.printStackTrace(); // 오류 출력
+	throw.e; // 최상위 클래스가 아니면 무조건 던져주자
+} finally {
+	무조건 수행
+}
+```
+
+<br>
+
+## ***JAVA1 코드 정리***
+* 숫자임을 확인하는 정규식 이용
+```java
+class Solution {
+	public static boolean solution (String s) {
+		if (s.length()==4 || s.length()==6) {
+			return s.matches("(^[0-9]*$)");
+		}
+		return false;
+	}
+}
+```
+- ^ : 문자열의 시작
+- $ : 문자열의 종료
+- . : 임의의 한 문자 (\는 불가)
+- * : 앞에 문자가 없거나 무한
+- + : 앞에 문자가 하나이상
+- ? : 앞에 문자가 없거나 하나
+- [] : 문자의 집하이나 범위. 두 문자 사이는 -로 나타냄. []내에 ^가 선행하면 not의 의미
+- {} : 횟수 또는 범위
+- () : 소괄호 안에 문자를 하나의 문자로 인식
+- | : 패턴 안에서 또는 연산자
+- \s : 공백문자
+- \S : 공백 아닌 나머지 문자
+- \w : 알파벳이나 숫자
+- \W : 알파벳, 숫자를 제외한 문자
+- \d : 숫자 [0-9]와 동일
+- \D : 숫자 제외 모든 문자
+- \ : 확장 문자. 뒤에 일반문자가 오면 특수문자 취급. 뒤에 특수문자가 오면 그 문자 자체 의미
+- (?!) : 대소문자 구분 X
+
+<br>
+
+>try~catch를 처음 사용하여 코드를 짜 보았는데 if를 하는 방법보다 훨씬 효율적인 것 같다.
+정규식도 생각보다 많이 복잡하지 않아서 조금 더 공부해서 정규식으로도 다시 코드를 짜보고 싶다.
+
+<br>
+
+----
+
+<br>
 
 # [짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937)
 ## 문제 설명
@@ -153,8 +262,10 @@ class Solution {
 | :--: | :-----:|
 |   3  |  "Odd" |
 |   3  | "Even" |
-----------
-## 나의 풀이
+
+<br>
+
+## ***나의 풀이***
 1. 삼항연산자를 이용하여 num을 2로 나눴을 때 나머지가 0이면 (짝수) Even을 리턴하고 0이 아니면 (홀수) Odd를 리턴한다.
 ```java
 class Solution {
@@ -166,8 +277,64 @@ class Solution {
 > 프로그래머스 중 가장 쉬운 난이도인 것 같다.
 다른 사람들의 코드를 비교해봤을 때도 다 비슷비슷하다고 느껴졌다.
 
-</br>
-</br>
+<br>
+
+----
+
+<br>
+
+# [문자열을 정수로 바꾸기](https://programmers.co.kr/learn/courses/30/lessons/12925)
+## 문제 설명
+문자열 s를 숫자로 변환한 결과를 반환하는 함수, solution을 완성하세요.
+## 제한 조건
++ S의 길이는 1 이상 5 이하입니다.
++ S의 맨 앞에는 부호(+,-)가 올 수 있습니다.
++ S는 부호와 숫자로만 이루어져 있습니다.
++ S는 “0”으로 시작하지 않습니다.
+## ​입출력 예
+예를 들어 str이 “1234”이면 1234를 반환하고, “-1234”이면 -1234를 반환
+Str은 부호(+,-)와 숫자로만 구성되어 있고, 잘못된 값이 입력되는 경우는 없음
+
+<br>
+
+## ***나의 풀이***
+1. String을 바로 Int로 바꿔주는 내장 함수 사용
+```java
+class Solution {
+    fun solution(s: String): Int {
+        return s.toInt()
+    }
+}
+```
+
+<br>
+
+## ***JAVA1 코드 정리***
+1. 내가 사용한 Integer.parseInt(s)를 풀어서 코딩
+2. result*10을 이용하여 자릿수를 하나씩 위로 올림
+```java
+public class StrToInt {
+	public int getStrToInt(String str) { // Integer.parseInt(s)를 분해한 것
+		Boolean Sign = true;
+		Int result = 0;
+		
+		for (int i=0; i<str.length(); i++) {
+			char ch = str.charAt(i);
+			if (ch == '-')
+				Sign = false;
+			else if (ch != '+')
+				result = result*10 + (ch-'0'); // 자릿수를 하나씩 위로
+		}
+		return Sign ? 1: -1*result;
+	}
+}
+```
+
+<br>
+
+----
+
+<br>
 
 # [수박수박수박수박수박수?](https://programmers.co.kr/learn/courses/30/lessons/12922)
 ## 문제 설명
@@ -181,8 +348,10 @@ class Solution {
 | :-- | :-----------: |
 |  3  | "수박수" |
 |  4  |   "수박수박"   |
-----------
-## 나의 풀이
+
+<br>
+
+## ***나의 풀이***
 1. “수”,”박”을 각각 Pattern이라는 배열에 저장
 2. for문을 돌려 n의 길이만큼 나타내기 : 홀수인 경우 한글자 누락
 3. 홀수인 경우 누락된 한 글자를 나중에 추가 : answer += “수”;
@@ -208,8 +377,10 @@ class Solution {
 	}
 }
 ```
-----
-## JAVA1 코드 정리
+
+<br>
+
+## ***JAVA1 코드 정리***
 1. “수”,”박”을 각각 Pattern이라는 배열에 저장
 2. for문을 돌려 n의 길이만큼 나타내기 : 홀수인 경우 한글자 누락
 3. 홀수인 경우 누락된 한 글자를 나중에 추가 : answer += “수”;
@@ -224,8 +395,9 @@ class Solution {
     1. new String() 생성자 키워드 안에 char 배열을 넣으면 String 객체로 변환
     2. 빈 char 배열이 생성되면 그 안에는 \0으로 생성​
 
-----
-## JAVA2 코드 정리
+<br>
+
+## ***JAVA2 코드 정리***
 1. 삼항연산자를 이용하여 자릿수(for문 중 i)가 홀수면 “수”, 짝수면 “박”
 ```java
 class Solution {
@@ -238,8 +410,9 @@ class Solution {
 }
 ```
 
-----
-## JAVA3 코드 정리
+<br>
+
+## ***JAVA3 코드 정리***
 1. StringBuffer를 이용하여 Java2의 풀이법을 sf에 넣어 나중에 String으로 바꿔 출력
 ```java
 class Solution {
@@ -255,7 +428,8 @@ class Solution {
     - insert : 특정위치 문자열 삽입
     - append : 문자열 추가
 
-----
+<br>
+
 > 이번에는 다양한 방법이 존재했다.
 그 중에서 나의 코드가 제일 비효율적이고 길었다.
 나의 코드에서도 일단 if문과 else를 합쳐서 좀 더 짧게 쓸 수 있었는데 그 생각을 하지 못했다.
@@ -264,8 +438,11 @@ class Solution {
 그리고 StringBuffer도 다른 사람들에 풀이에 비하면 굳이?라는 생각이 들긴 하지만,
 StringBuffer라는 새로운 것을 사용했다는 점이 좋아 풀이 방법에 추가하였다
 
-</br>
-</br>
+<br>
+
+----
+
+<br>
 
 # [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912)
 ## 문제 설명
@@ -283,8 +460,10 @@ solution을 완성하세요.
 |  3  |   5  |    12    |
 |  3  |   3  |     3    |
 |  5  |   3  |    12    |
-----------
-## 나의 풀이
+
+<br>
+
+## ***나의 풀이***
 1. a와 b의 대소관계 구분
 2. 작은 수부터 큰 수까지 for문을 이용하여 모든 숫자 합하기
 ```java
@@ -304,8 +483,9 @@ class Solution {
 	}
 }
 ```
-----
-## JAVA1 코드 정리
+<br>
+
+## ***JAVA1 코드 정리***
 1. 새로운 함수 sumAtoB 생성
 2. Math.min(), Math.max()를 이용하여 대소관계 구분
 3. 등차수열의 합 공식을 이용하여 모든 숫자의 합 구함
@@ -321,8 +501,10 @@ class Solution {
 	}
 }
 ```
-----
-## JAVA2 코드 정리
+
+<br>
+
+## ***JAVA2 코드 정리***
 1. 삼항연산자를 이용하여 for문 안에 대소관계 구분
 2. 작은 수부터 큰 수까지 for문을 이용하여 숫자 합하기
 ```java
@@ -336,7 +518,9 @@ class Solution {
 	}
 }
 ```
-----
+
+<br>
+
 > 좀 창피한 코딩이었다.
 훨씬 압축해서 줄일 수 있는 것을 미련하게 줄줄줄줄 쓴 느낌이다.
 문제 자체가 쉬워서 코딩이 길지는 않았지만, 그래도 좀 아쉬움이 많이 남는 코딩이다.

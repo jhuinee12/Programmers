@@ -4,12 +4,7 @@
 </br>
 
 ## JAVA
-- [Level1](./Java/level1.md)
-    - 2021.06.14 누적 5개 commit
-    - 2021.06.15 누적 2개 commit + format 일부 변경
-- Level2
+- [java 목차](./Java/java-md/programmers-java-idx.md)
 
 ## Kotlin
-- [Level1](./Kotlin/level1.md)
-    - 2021.06.14 누적 3개 commit
-    - 2021.06.15 누적 3개 commit
+- [kotlin 목차](./Kotlin/kotlin-md/programmers-kotlin-idx.md)

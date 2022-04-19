@@ -22,7 +22,7 @@
 |[시저 암호](./programmers-java-lv1/Caesar's%20code.md)|2021.09.24|
 |[문자열을 정수로 바꾸기](./programmers-java-lv1/replace%20a%20string%20with%20an%20integer.md)|2020.10.26|
 |[수박수박수박수박수박수?](./programmers-java-lv1/watermelon-clap.md)|2020.10.17|
-|소수 찾기||
+|[소수 찾기](./programmers-java-lv2/prime%20number%20finding.md)|2021.01.17|
 |[서울에서 김서방 찾기](./programmers-java-lv1/Finding%20Kim%20Seobang%20in%20Seoul.md)|2020.11.07|
 |[문자열 다루기 기본](./programmers-java-lv1/string%20handling%20basic.md)|2020.10.24|
 |[문자열 내림차순으로 배치하기](./programmers-java-lv1/arrange%20in%20descending%20order%20of%20strings.md)|2021.01.20|
@@ -78,7 +78,6 @@
 |예상 대진표||
 |조이스틱||
 |가장 큰 수||
-|[소수 찾기](./programmers-java-lv2/prime%20number%20finding.md)|2021.01.17|
 |후보키||
 |카펫||
 |[다리를 지나는 트럭](./programmers-java-lv2/a%20truck%20that%20runs%20through%20a%20bridge.md)|2021.02.28|

@@ -44,11 +44,16 @@ fun main(args: Array<String>) {
 /*    // 2016년
     println(year2016().solution1(5,24))
     println(year2016().solution2(5,24))*/
-    // 체육복
+/*    // 체육복
     println(GymSuit().solution(5,intArrayOf(4,2), intArrayOf(1,3,5)))
     println(GymSuit().solution(5,intArrayOf(2,4), intArrayOf(3)))
     println(GymSuit().solution(3,intArrayOf(3), intArrayOf(1)))
     println(GymSuit().solution(5,intArrayOf(3,5), intArrayOf(2,4)))
     println(GymSuit().solution(5,intArrayOf(3,4), intArrayOf(3,5)))
-    println(GymSuit().solution(3,intArrayOf(1,2), intArrayOf(2,3)))
+    println(GymSuit().solution(3,intArrayOf(1,2), intArrayOf(2,3)))*/
+    // 소수찾기 - 22.04.19
+    println(CreatePrimeNumver().solution(intArrayOf(1,2,3,4)))
+    println(CreatePrimeNumver().solution(intArrayOf(1,2,7,6,4)))
+    println(CreatePrimeNumverSolution1().solution(intArrayOf(1,2,3,4)))
+    println(CreatePrimeNumverSolution1().solution(intArrayOf(1,2,7,6,4)))
 }

@@ -42,7 +42,7 @@
 |음양 더하기||
 |키패드 누르기||
 |크레인 인형뽑기 게임||
-|모의고사||
+|[모의고사](./programmers-kotlin-lv1/mock%20test.md)|2022.04.27|
 |[소수 만들기](./programmers-kotlin-lv1/decimal%20making.md)|2022.04.19|
 
 ## Level 2

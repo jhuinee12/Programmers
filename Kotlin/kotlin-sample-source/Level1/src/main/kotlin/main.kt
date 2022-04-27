@@ -51,9 +51,12 @@ fun main(args: Array<String>) {
     println(GymSuit().solution(5,intArrayOf(3,5), intArrayOf(2,4)))
     println(GymSuit().solution(5,intArrayOf(3,4), intArrayOf(3,5)))
     println(GymSuit().solution(3,intArrayOf(1,2), intArrayOf(2,3)))*/
-    // 소수찾기 - 22.04.19
+/*    // 소수찾기 - 22.04.19
     println(CreatePrimeNumver().solution(intArrayOf(1,2,3,4)))
     println(CreatePrimeNumver().solution(intArrayOf(1,2,7,6,4)))
     println(CreatePrimeNumverSolution1().solution(intArrayOf(1,2,3,4)))
-    println(CreatePrimeNumverSolution1().solution(intArrayOf(1,2,7,6,4)))
+    println(CreatePrimeNumverSolution1().solution(intArrayOf(1,2,7,6,4)))*/
+    // 모의고사 - 22.04.27
+    println(MockTest().solution(intArrayOf(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5)).joinToString())
+    println(MockTest1().solution(intArrayOf(1,2,3)).joinToString())
 }

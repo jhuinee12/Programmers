@@ -113,3 +113,9 @@
 |행렬의 곱셈|||
 |JadenCase 문자열 만들기|||
 |N개의 최소공배수|||
+
+
+## Level 3
+|문제|Java|Kotlin|
+|:--|:--|:--|
+|숫자게임|[2022.08.14](./programmers-md/programmers-java-md/programmers-java-lv3/number-game.md)| X |

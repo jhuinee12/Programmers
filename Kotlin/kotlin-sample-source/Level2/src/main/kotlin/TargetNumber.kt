@@ -9,13 +9,17 @@ import kotlin.collections.ArrayList
 
 class TargetNumber {
 
-    val linkedList = LinkedList<Integer>()
+    val visited = arrayListOf<Boolean>()
+    val queue = LinkedList<Int>()
+    val adj = LinkedList<Int>()
 
     fun solution(numbers: IntArray, target: Int): Int {
         var answer = 0
 
-        for (num in numbers) {
+        var sum = 0
 
+        for (num in numbers) {
+            sum = plus(sum, num)
         }
 
         return answer
@@ -24,14 +28,25 @@ class TargetNumber {
     fun plus(a: Int, b: Int) = a + b
     fun minus(a: Int, b: Int) = a - b
 
-    fun dfs(a: Int) {
-        val visited = ArrayList<Boolean>()
-        dfsUtil(a, visited)
-    }
+    fun bfs (rootNode: Int) {
+        var rootNode = rootNode
 
-    fun dfsUtil(a: Int, visited: ArrayList<Boolean>) {
-        visited[a] = true
+        visited[rootNode] = true
+        queue.add(rootNode)
 
+        while (queue.size != 0) {
+            rootNode = queue.poll()
+
+            val i: Iterator<Int> = adj[rootNode].listIterator()
+            while (i.hasNext()) {
+                val n = i.next()
+                // 방문하지 않은 노드면 방문한 것으로 표시하고 큐에 삽입(enqueue)
+                if (!visited[n]) {
+                  visited[n] = true;
+                  queue.add(n);
+                }
+            }
+        }
     }
 
 }

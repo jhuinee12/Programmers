@@ -1,5 +1,5 @@
 |문제|Java|Kotlin|
-|:--|:--|:--|
+|:--|:--:|:--:|
 |직사각형 별찍기|[2020.10.18](./programmers-md/programmers-java-md/programmers-java-lv1/rectangular-star-printing.md)|[2021.03.17](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv1/rectangular%20star-printing.md)|
 |X만큼 간격이 있는 n개의 숫자|[2020.10.08](./programmers-md/programmers-java-md/programmers-java-lv1/n-numbers-spaced-by-x.md)|[2021.04.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv1/n%20numbers%20spaced%20by%20X.md)|
 |행렬의 덧셈|[2020.12.17](./programmers-md/programmers-java-md/programmers-java-lv1/addition%20of%20matrix.md)|[2021.09.15](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv1/addition%20of%20matrix.md)|
@@ -53,7 +53,7 @@
 
 ## Level 2
 |문제|Java|Kotlin|
-|:--|:--|:--|
+|:--|:--:|:--:|
 |문자열 압축|||
 |124 나라의 숫자|[2021.04.30](./programmers-md/programmers-java-md/programmers-java-lv2/124%20countries'%20numbers.md)||
 |타켓 넘버|||
@@ -117,5 +117,6 @@
 
 ## Level 3
 |문제|Java|Kotlin|
-|:--|:--|:--|
+|:--|:--:|:--:|
 |숫자게임|[2022.08.14](./programmers-md/programmers-java-md/programmers-java-lv3/number-game.md)| X |
+| 가장 긴 팰린드롬 |  | [2022.08.20](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/long-palindrom.md) |

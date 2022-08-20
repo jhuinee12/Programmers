@@ -18,3 +18,5 @@ programmers-source/programmers-level2/.idea/
 programmers-source/programmers-level3/out/production/kotlin-programmers-level3/.idea/
 *.kotlin_module
 programmers-source/programmers-level3/.idea/
+programmers-source/programmers-level3/out/production/programmers-level3/.idea/
+*.class

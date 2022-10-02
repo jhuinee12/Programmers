@@ -45,17 +45,24 @@ import java.util.ArrayList;
  *  위와 같은 방식으로 합니다.
  */
 public class JumpAndTeleport {
-
-    ArrayList<Integer> visited = new ArrayList<>();
-    int ans = 0;
-
     public int solution(int n) {
+        int ans = 0;
+
+        while (n > 0) {
+            if (n % 2 == 0) { // 짝수인 경우 순간이동
+                n /= 2;
+            } else { // 홀수인 경우 한 칸 이동
+                n--;
+                ans++;
+            }
+        }
+
         return ans;
     }
 
     public static void main(String[] args) {
         JumpAndTeleport sol = new JumpAndTeleport();
-        sol.solution(5);
-        sol.solution(6);
+        System.out.println(sol.solution(5));
+        System.out.println(sol.solution(6));
     }
 }

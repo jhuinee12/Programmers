@@ -106,8 +106,39 @@ class Immigration {
     // 3. => 심사를 받는데 걸리는 시간(mid)은 30(분)이고, mid 이내에 처리 가능 인원한 인원은 각 심사대에 3(명),4(명)
     // 4. 심사대가 처리할 수 있는 인원은 7명인데 총 인원은 6명 => 최대 시간을 중간값보다 낮게 줄임 (high = mid)
     // 5. mid 시간을 줄여서 처리 가능 인원이 총 인원보다 작으면 최저 시간을 중간값보다 높게 올림 (low = mid)
-    // 6. 최저 시간과 최대시간보다 커지면 정답 추출
+    // 6. 총 처리 가능 인원이 총 인원수와 같아지면 리턴
+
     fun solution3(n: Int, times: IntArray): Long {
+        times.sort()
+
+        var lowTime: Long = 1
+        var highTime: Long = times[times.size-1] * n.toLong()
+
+        while (lowTime <= highTime) {
+            var sum: Long = 0
+            val midTime: Long = (lowTime + highTime) / 2
+
+            times.forEach {
+                sum += midTime/it
+            }
+
+            if (sum == n.toLong()) {
+                return midTime
+            } else if (sum >= n) {
+                highTime = midTime - 1
+            } else {
+                lowTime = midTime + 1
+            }
+        }
+
+        return 0
+    }
+
+
+    // 총 처리가능 인원이 총 인원보다 크거나 같으면 mid값 저장
+    // 범위가 끝나면 저장했던 값 리턴
+
+    fun solution4(n: Int, times: IntArray): Long {
         var answer: Long = 0
 
         times.sort()
@@ -163,8 +194,7 @@ fun main() {
     println(sample.solution2(2, intArrayOf(10,15,8))) // 정답: 10
     println(sample.solution2(2, intArrayOf(10,15,8))) // 정답: 10
     println(sample.solution2(2, intArrayOf(1000000000))) // 정답: 2000000000
-    */
-
+*//*
     println(sample.solution3(6, intArrayOf(7,10))) // 정답: 28
     println(sample.solution3(8, intArrayOf(1,9))) // 정답: 8
     println(sample.solution3(3, intArrayOf(1,1,1))) // 정답: 1
@@ -177,5 +207,17 @@ fun main() {
     println(sample.solution3(2, intArrayOf(10,15,8))) // 정답: 10
     println(sample.solution3(2, intArrayOf(1000000000))) // 정답: 2000000000
     println(sample.solution3(1000, intArrayOf(1000,1,1))) // 정답: 2000000000
-
+*/
+    println(sample.solution4(6, intArrayOf(7,10))) // 정답: 28
+    println(sample.solution4(8, intArrayOf(1,9))) // 정답: 8
+    println(sample.solution4(3, intArrayOf(1,1,1))) // 정답: 1
+    println(sample.solution4(3, intArrayOf(1,2,3))) // 정답: 2
+    println(sample.solution4(10, intArrayOf(6,8,10))) // 정답: 30
+    println(sample.solution4(7, intArrayOf(10,10))) // 정답: 40
+    println(sample.solution4(1, intArrayOf(10,10,10))) // 정답: 10
+    println(sample.solution4(1, intArrayOf(10,15,8))) // 정답: 8
+    println(sample.solution4(2, intArrayOf(10,15,8))) // 정답: 10
+    println(sample.solution4(2, intArrayOf(10,15,8))) // 정답: 10
+    println(sample.solution4(2, intArrayOf(1000000000))) // 정답: 2000000000
+    println(sample.solution4(1000, intArrayOf(1000,1,1))) // 정답: 2000000000
 }

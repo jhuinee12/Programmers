@@ -81,7 +81,7 @@
 |후보키|||
 |카펫|||
 |다리를 지나는 트럭|[2021.02.28](./programmers-md/programmers-java-md/programmers-java-lv2/a%20truck%20that%20runs%20through%20a%20bridge.md)||
-|H-Index|||
+|H-Index||[2022.10.05](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/H-Index.md)|
 |위장|[2021.02.07](./programmers-md/programmers-java-md/programmers-java-lv2/Camouflage.md)||
 |순위 검색|||
 |큰 수 만들기|||

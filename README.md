@@ -108,7 +108,7 @@
 |다음 큰 숫자|||
 |땅따먹기|||
 |숫자의 표현|||
-|최댓값과 최솟값|||
+|최댓값과 최솟값||[2022.10.16](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/MaximumAndMinimum.md)|
 |최솟값 만들기|||
 |피보나치수|||
 |행렬의 곱셈|||

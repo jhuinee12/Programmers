@@ -114,6 +114,7 @@
 |행렬의 곱셈|||
 |JadenCase 문자열 만들기|||
 |N개의 최소공배수|||
+|k진수에서 소수 개수 구하기||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/FindTheNumberOfDecimalsInKNumber.md)|
 
 
 ## Level 3

@@ -70,7 +70,7 @@
 |프린터|[2021.01.26](./programmers-md/programmers-java-md/programmers-java-lv2/printer.md)||
 |전화번호 목록|[2021.01.27](./programmers-md/programmers-java-md/programmers-java-lv2/telephone%20number%20list.md)||
 |가장 큰 수|||
-|행렬 테두리 회전하기|||
+|행렬 테두리 회전하기||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/RotateMatrixBorders.md)|
 |\[1차\]뉴스 클러스터링|||
 |메뉴 리뉴얼|||
 |수식 최대화|||

@@ -94,7 +94,7 @@
 |\[1차\]프렌즈4블록|||
 |삼각 달팽이|||
 |점프와 순간 이동|[2022.10.02](./programmers-md/programmers-java-md/programmers-java-lv2/jump_and_teleport.md)|X|
-|이진 변환 반복하기|||
+|이진 변환 반복하기||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/RepeatBinaryTransformation.md)|
 |\[1차\]캐시|||
 |스킬트리|||
 |쿼드압축 후 개수 세기||

@@ -76,6 +76,7 @@
 |수식 최대화|||
 |예상 대진표|||
 |조이스틱|||
+|멀리 뛰기||[2022.10.11](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/JumpFar.md)|
 |가장 큰 수|||
 |튜플|||
 |후보키|||

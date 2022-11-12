@@ -126,3 +126,4 @@
 |코딩 테스트 공부||[2022.09.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/studying_for_coding_test.md)|
 |입국심사||[2022.09.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/Immigration.md)|
 |풍선 터트리기||[2022.10.19](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/PoppingBallons.md)|
+|스타 수열||[2022.11.12](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/StarSequence.md)|

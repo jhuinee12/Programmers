@@ -1,4 +1,4 @@
-package src.main.kotlin
+package main.kotlin
 
 class PickingTangerines {
     fun solution(k: Int, tangerine: IntArray): Int {
@@ -18,10 +18,4 @@ class PickingTangerines {
 
         return index
     }
-}
-
-private fun main() {
-    println(PickingTangerines().solution(6, intArrayOf(1, 3, 2, 5, 4, 5, 2, 3))) // 정답: 3
-    println(PickingTangerines().solution(4, intArrayOf(1, 3, 2, 5, 4, 5, 2, 3))) // 정답: 2
-    println(PickingTangerines().solution(2, intArrayOf(1, 1, 1, 1, 2, 2, 2, 3))) // 정답: 1
 }

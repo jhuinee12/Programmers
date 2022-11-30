@@ -70,6 +70,7 @@
 |JadenCase 문자열 만들기||[2022.10.13](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/JadenCaseStrings.md)|
 |k진수에서 소수 개수 구하기||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/FindTheNumberOfDecimalsInKNumber.md)|
 |귤 고르기||[2022.11.28](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/PickingTangerines.md)|
+|N개의 최소공배수||[2022.11.30](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/LeastCommonMultiple.md)|
 
 
 ## Level 3

@@ -1,7 +1,5 @@
 package src.main.kotlin
 
-import kotlin.collections.ArrayList
-
 /**
  * Title: 110 옮기기
  * Url: https://school.programmers.co.kr/learn/courses/30/lessons/77886
@@ -14,39 +12,49 @@ class MoveOneOneZero {
 
         s.forEach {
             var delzzo = it
-            var chWord = ""
             var zzo = ""
-            var zeroIdx = -1
+            var zeroIdx: Int
+
+            val stack = arrayListOf<Char>()
+            val str = StringBuffer()
 
             while (true) {
-                if (delzzo.contains("110")) {
-                    delzzo = delzzo.replace("110", "")
-                } else {
-                    break
+                var isPop = false
+                zeroIdx = -1
+
+                delzzo.forEach { c ->
+                    stack.add(c)
+                    val index = stack.lastIndex
+                    if (index >= 2) {
+                        if ("${stack[index-2]}${stack[index-1]}${stack[index]}" == "110") {
+                            stack.removeLast()
+                            stack.removeLast()
+                            stack.removeLast()
+
+                            zzo += "110"
+
+                            isPop = true
+                        } else {
+                            if (c == '0') zeroIdx = index
+                        }
+                    } else {
+                        if (c == '0') zeroIdx = index
+                    }
                 }
-            }
 
-            val count = (it.length - delzzo.length)/3
-            for (i in 0 until count) {
-                zzo += "110"
-            }
+                delzzo = String(stack.toCharArray())
 
-            delzzo.forEachIndexed { index, c ->
-                if (c == '0') zeroIdx = index
+                if (isPop) stack.clear()
+                else break
             }
 
             if (zeroIdx == -1) {
-                chWord = zzo + delzzo
+                answer.add(zzo + delzzo)
             } else {
-                delzzo.forEachIndexed { index, c ->
-                    chWord += c
-                    if (index == zeroIdx) {
-                        chWord += zzo
-                    }
-                }
+                str.append(delzzo)
+                str.insert(zeroIdx+1, zzo)
+                answer.add(str.toString())
             }
-
-            answer.add(chWord)
         }
 
         return answer.toTypedArray()
@@ -54,8 +62,8 @@ class MoveOneOneZero {
 }
 
 private fun main() {
-    println(MoveOneOneZero().solution(arrayOf("1110","100111100","0111111010"))) // 정답: "1101","100110110","0110110111"
-    println(MoveOneOneZero().solution(arrayOf("1011110","01110","101101111010"))) // 정답: "1011011","01101","101101101101"
-    println(MoveOneOneZero().solution(arrayOf("101101111010"))) // 정답: "101101101101"
-    println(MoveOneOneZero().solution(arrayOf("1100111011101001"))) // 정답: "0101101101101101"
+    println(MoveOneOneZero().solution(arrayOf("1110","100111100","0111111010")).toCollection(arrayListOf()).joinToString()) // 정답: "1101","100110110","0110110111"
+    println(MoveOneOneZero().solution(arrayOf("1011110","01110","101101111010")).toCollection(arrayListOf()).joinToString()) // 정답: "1011011","01101","101101101101"
+    println(MoveOneOneZero().solution(arrayOf("101101111010")).toCollection(arrayListOf()).joinToString()) // 정답: "101101101101"
+    println(MoveOneOneZero().solution(arrayOf("1100111011101001")).toCollection(arrayListOf()).joinToString()) // 정답: "0101101101101101"
 }

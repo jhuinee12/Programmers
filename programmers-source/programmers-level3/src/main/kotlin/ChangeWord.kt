@@ -4,6 +4,8 @@ class ChangeWord {
     lateinit var target: String
     lateinit var words: Array<String>
 
+    var minCnt = Int.MAX_VALUE
+
     fun solution(begin: String, target: String, words: Array<String>): Int {
         this.target = target
         this.words = words
@@ -12,11 +14,12 @@ class ChangeWord {
 
         if (!words.contains(target)) return 0
 
-        return dfs(visited, begin, 1)
+        dfs(visited, begin, 1)
+
+        return minCnt
     }
 
-    private fun dfs(visited: BooleanArray, word: String, count: Int): Int {
-        var cnt = count
+    private fun dfs(visited: BooleanArray, word: String, count: Int) {
         words.forEachIndexed { i, w ->
             if (visited[i]) return@forEachIndexed
 
@@ -27,12 +30,12 @@ class ChangeWord {
             }
 
             if (diff == 1) {
-                if (w == target) return cnt
+                if (w == target && count < minCnt) minCnt = count
                 visited[i] = true
-                cnt = dfs(visited, w, count+1)
+                dfs(visited, w, count+1)
+                visited[i] = false
             }
         }
-        return cnt
     }
 }
 

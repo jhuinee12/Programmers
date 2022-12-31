@@ -5,43 +5,35 @@ package src.main.kotlin
  * Url: https://school.programmers.co.kr/learn/courses/30/lessons/42861
  */
 class ConnectTheIslands {
-    var minCost = Int.MAX_VALUE
-    lateinit var graph: Array<IntArray>
-
     fun solution(n: Int, costs: Array<IntArray>): Int {
-        graph = Array(n) { IntArray(n) { 0 } }
+        costs.sortBy { it[2] } // 가중치 기준으로 오름차순 정렬
+
+        val root = IntArray(n) { it }
+
+        var cost = 0
+        var cnt = 0
 
         costs.forEach {
-            graph[it[0]][it[1]] = it[2]
-            graph[it[1]][it[0]] = it[2]
-        }
+            if (root[it[0]] != root[it[1]]) {
+                val first = Math.min( root[it[0]], root[it[1]] )
+                val second = Math.max( root[it[0]], root[it[1]] )
 
-        for (i in 0 until n) {
-            val visited = BooleanArray(n) { false }
-            visited[i] = true
-            dfs(visited, i)
-        }
-
-        return minCost
-    }
-
-    private fun dfs(visited: BooleanArray, before: Int, cnt: Int = 1, cost: Int = 0) {
-        graph[before].forEachIndexed { i, it ->
-            if (!visited[i] && it != 0) {
-                val newCost = cost+it
-                if (newCost > minCost) return@forEachIndexed
-
-                visited[i] = true
-
-                if (cnt == graph.lastIndex) {
-                    if (newCost < minCost) minCost = newCost
-                } else {
-                    dfs(visited, i, cnt+1, newCost)
+                for (i in root.indices) {
+                    if (root[i] == second) {
+                        root[i] = first
+                    }
                 }
 
-                visited[i] = false
+                cost += it[2]
+                cnt++
+
+                if (cnt == n-1) {
+                    return cost
+                }
             }
         }
+
+        return cost
     }
 }
 

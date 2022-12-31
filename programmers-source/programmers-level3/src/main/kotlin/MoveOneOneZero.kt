@@ -1,5 +1,7 @@
 package src.main.kotlin
 
+import java.util.*
+
 /**
  * Title: 110 옮기기
  * Url: https://school.programmers.co.kr/learn/courses/30/lessons/77886
@@ -11,47 +13,31 @@ class MoveOneOneZero {
         val answer: ArrayList<String> = arrayListOf()
 
         s.forEach {
-            var delzzo = it
             var zzo = ""
-            var zeroIdx: Int
+            var zeroIdx = -1
 
-            val stack = arrayListOf<Char>()
+            val new = arrayListOf<Char>()
             val str = StringBuffer()
 
-            while (true) {
-                var isPop = false
-                zeroIdx = -1
-
-                delzzo.forEach { c ->
-                    stack.add(c)
-                    val index = stack.lastIndex
-                    if (index >= 2) {
-                        if ("${stack[index-2]}${stack[index-1]}${stack[index]}" == "110") {
-                            stack.removeLast()
-                            stack.removeLast()
-                            stack.removeLast()
-
-                            zzo += "110"
-
-                            isPop = true
-                        } else {
-                            if (c == '0') zeroIdx = index
-                        }
+            it.forEach { c ->
+                new.add(c)
+                val index = new.lastIndex
+                if (c == '0') {
+                    if (index >= 2 && new[index-2] == '1' && new[index-1] == '1') {
+                        new.removeLast()
+                        new.removeLast()
+                        new.removeLast()
+                        zzo += "110"
                     } else {
-                        if (c == '0') zeroIdx = index
+                        zeroIdx = index
                     }
                 }
-
-                delzzo = String(stack.toCharArray())
-
-                if (isPop) stack.clear()
-                else break
             }
 
             if (zeroIdx == -1) {
-                answer.add(zzo + delzzo)
+                answer.add(zzo + new.joinToString(""))
             } else {
-                str.append(delzzo)
+                str.append(new.joinToString(""))
                 str.insert(zeroIdx+1, zzo)
                 answer.add(str.toString())
             }

@@ -39,9 +39,7 @@ priorities			location	return
 6개의 문서(A, B, C, D, E, F)가 인쇄 대기목록에 있고 중요도가 1 1 9 1 1 1 이므로 C D E F A B 순으로 인쇄합니다.
  */
 
-import java.util.Arrays;
-
-public class Printer {
+public class ALG_P_0_프린터 {
 
     public int solution(int[] priorities, int location) {
         int answer = 0;
@@ -77,7 +75,7 @@ public class Printer {
     }
 
     public static void main(String[] args) {
-        Printer sol = new Printer();
+        ALG_P_0_프린터 sol = new ALG_P_0_프린터();
 
         int[] priorities = {2,4,6,8};
         int location = 0;

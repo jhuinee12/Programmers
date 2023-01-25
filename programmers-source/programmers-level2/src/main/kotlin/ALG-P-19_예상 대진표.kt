@@ -6,7 +6,7 @@ import kotlin.math.absoluteValue
  * Title: 예상 대진표
  * Url: https://school.programmers.co.kr/learn/courses/30/lessons/12985
  */
-class ExpectedDraw {
+class `ALG-P-19_예상 대진표` {
     fun solution(n: Int, a: Int, b: Int): Int {
         var answer = 0
         var fight1 = a
@@ -35,6 +35,6 @@ class ExpectedDraw {
 }
 
 private fun main() {
-    println(ExpectedDraw().solution(8,4,7)) // 3
-    println(ExpectedDraw().solution(8,2,3)) // 2
+    println(`ALG-P-19_예상 대진표`().solution(8,4,7)) // 3
+    println(`ALG-P-19_예상 대진표`().solution(8,2,3)) // 2
 }

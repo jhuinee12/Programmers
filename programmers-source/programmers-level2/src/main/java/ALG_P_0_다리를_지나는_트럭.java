@@ -2,7 +2,7 @@ package main.java;
 
 import java.util.*;
 
-public class TruckClass {
+public class ALG_P_0_다리를_지나는_트럭 {
     class Truck {
         int weight;
         int move;
@@ -61,7 +61,7 @@ public class TruckClass {
         int weight = 5;
         int[] truck_weights = {2, 2, 2, 2, 1, 1, 1, 1, 1};
         int[] truck_weights2 = {10};
-        TruckClass sol = new TruckClass();
+        ALG_P_0_다리를_지나는_트럭 sol = new ALG_P_0_다리를_지나는_트럭();
         System.out.println(sol.solution(bridge_length, weight, truck_weights));
         //System.out.println(sol.solution(100, 100, truck_weights2));
     }

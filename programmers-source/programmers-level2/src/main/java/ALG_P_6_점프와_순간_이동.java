@@ -1,7 +1,5 @@
 package main.java;
 
-import java.util.ArrayList;
-
 /**
  * Title    : 점프와 순간이동
  * Url      : https://school.programmers.co.kr/learn/courses/30/lessons/12980?language=java
@@ -44,7 +42,7 @@ import java.util.ArrayList;
  * 입출력 예 #3
  *  위와 같은 방식으로 합니다.
  */
-public class JumpAndTeleport {
+public class ALG_P_6_점프와_순간_이동 {
     public int solution(int n) {
         int ans = 0;
 
@@ -61,7 +59,7 @@ public class JumpAndTeleport {
     }
 
     public static void main(String[] args) {
-        JumpAndTeleport sol = new JumpAndTeleport();
+        ALG_P_6_점프와_순간_이동 sol = new ALG_P_6_점프와_순간_이동();
         System.out.println(sol.solution(5));
         System.out.println(sol.solution(6));
     }

@@ -54,7 +54,7 @@ heights	return
 
 import java.util.Arrays;
 
-class Top {
+class ALG_P_0_탑 {
     public int[] solution(int[] heights) {
         int[] answer = new int[heights.length];
 
@@ -77,7 +77,7 @@ class Top {
 
     public static void main(String[] args) {
 
-        Top sol = new Top();
+        ALG_P_0_탑 sol = new ALG_P_0_탑();
 
         int heights[] = {6,9,5,7,4};
         System.out.println(Arrays.toString(sol.solution(heights)));

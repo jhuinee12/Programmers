@@ -1,6 +1,6 @@
 package main.java;
 
-public class Country1234 {
+public class ALG_P_0_124_나라의_숫자 {
     StringBuilder sb1 = new StringBuilder();
 
     public String solution(int n) {
@@ -50,7 +50,7 @@ public class Country1234 {
     }
 
     public static void main(String[] args) {
-        Country1234 sol = new Country1234();
+        ALG_P_0_124_나라의_숫자 sol = new ALG_P_0_124_나라의_숫자();
 
         //System.out.println(sol.solution(18));
 

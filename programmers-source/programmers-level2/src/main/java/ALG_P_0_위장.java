@@ -46,7 +46,7 @@ face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로
 
 import java.util.*;
 
-public class Camouflage {
+public class ALG_P_0_위장 {
     public int solution(String[][] clothes) {
         int answer = 1;
 
@@ -69,7 +69,7 @@ public class Camouflage {
     }
 
     public static void main(String[] args) {
-        Camouflage sol = new Camouflage();
+        ALG_P_0_위장 sol = new ALG_P_0_위장();
 
         String[][] clo1 = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
         String[][] clo2 = {{"crow_mask", "face"}, {"blue_sunglasses", "face"}, {"smoky_makeup", "face"}};

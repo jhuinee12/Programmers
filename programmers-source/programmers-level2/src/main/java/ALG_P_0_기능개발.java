@@ -32,7 +32,7 @@ progresses					speeds					return
 */
 
 
-public class FunctionDeveloper {
+public class ALG_P_0_기능개발 {
 
     public int[] solution(int[] progresses, int[] speeds) {
         int[] date = new int[progresses.length];    // 걸리는 날짜 배열
@@ -79,7 +79,7 @@ public class FunctionDeveloper {
         int[] speeds2 = {1, 1, 1, 1, 1, 1};
         int[] speeds3 = {5, 4, 5, 1, 5, 1}; // 10 20 20 20 20 85
 
-        FunctionDeveloper sol = new FunctionDeveloper();
+        ALG_P_0_기능개발 sol = new ALG_P_0_기능개발();
         sol.solution(progresses1, speeds1);
         sol.solution(progresses2, speeds2);
         sol.solution(progresses3, speeds3);

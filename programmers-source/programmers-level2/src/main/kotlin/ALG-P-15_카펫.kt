@@ -4,7 +4,7 @@ package main.kotlin
  * Title: 카펫
  * Url: https://school.programmers.co.kr/learn/courses/30/lessons/42842
  */
-class Carpet {
+class `ALG-P-15_카펫` {
     fun solution(brown: Int, yellow: Int): IntArray {
         // a*b = brown + yellow (carpet)
         // yellow = (a-2)*(b-2)
@@ -24,7 +24,7 @@ class Carpet {
 }
 
 private fun main() {
-    println(Carpet().solution(10, 2).joinToString(" ")) // [4,3]
-    println(Carpet().solution(8, 1).joinToString(" ")) // [3,3]
-    println(Carpet().solution(24, 24).joinToString(" ")) // [8,6]
+    println(`ALG-P-15_카펫`().solution(10, 2).joinToString(" ")) // [4,3]
+    println(`ALG-P-15_카펫`().solution(8, 1).joinToString(" ")) // [3,3]
+    println(`ALG-P-15_카펫`().solution(24, 24).joinToString(" ")) // [8,6]
 }

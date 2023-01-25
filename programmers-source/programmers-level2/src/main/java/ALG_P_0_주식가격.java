@@ -22,7 +22,7 @@ prices의 길이는 2 이상 100,000 이하입니다.
 
 import java.util.*;
 
-class StockPrice {
+class ALG_P_0_주식가격 {
     public int[] solution(int[] prices) {
         Stack<Integer> beginIdxs = new Stack<>();
         int i=0;
@@ -46,7 +46,7 @@ class StockPrice {
     }
 
     public static void main(String[] args) {
-        StockPrice sol = new StockPrice();
+        ALG_P_0_주식가격 sol = new ALG_P_0_주식가격();
         //int[] pr1 = {1,1,3,2,3};
         //int[] pr2 = {1,1,2,1,3,4,1};
         //int[] pr3 = {3,1};

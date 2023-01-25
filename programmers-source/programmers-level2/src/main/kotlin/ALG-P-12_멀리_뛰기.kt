@@ -4,7 +4,7 @@ package main.kotlin
  * Title: 멀리 뛰기
  * Url: https://school.programmers.co.kr/learn/courses/30/lessons/12914
  */
-class JumpFar {
+class `ALG-P-12_멀리_뛰기` {
     fun solution(n: Int): Long {
         val queue = ArrayDeque<Long>()
 
@@ -27,5 +27,5 @@ class JumpFar {
 private fun main() {
 //    println(JumpFar().solution(4))  // 5
 //    println(JumpFar().solution(3))  // 3
-    println(JumpFar().solution(2000))  // 3
+    println(`ALG-P-12_멀리_뛰기`().solution(2000))  // 3
 }

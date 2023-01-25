@@ -85,3 +85,4 @@
 |숫자 타자 대회||[2022.11.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/NumberTypingContest.md)|
 |단어 변환||[2022.12.25](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ChangeWord.md)|
 |섬 연결하기||[2022.12.31](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ConnectTheIslands.md)|
+|합승 택시 요금||[2022.01.07](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ASharedTaxiFare.md)|

@@ -4,7 +4,7 @@ package src.main.kotlin
  * Title: 섬 연결하기
  * Url: https://school.programmers.co.kr/learn/courses/30/lessons/42861
  */
-class ConnectTheIslands {
+class `ALG-P-30_섬_연결하기` {
     fun solution(n: Int, costs: Array<IntArray>): Int {
         costs.sortBy { it[2] } // 가중치 기준으로 오름차순 정렬
 
@@ -38,49 +38,49 @@ class ConnectTheIslands {
 }
 
 private fun main() {
-    println(ConnectTheIslands().solution(
+    println(`ALG-P-30_섬_연결하기`().solution(
         4,
         arrayOf(
             intArrayOf(0,1,1),intArrayOf(0,2,2),intArrayOf(1,2,5),intArrayOf(1,3,1),intArrayOf(2,3,8))
     )) // 4
-    println(ConnectTheIslands().solution(
+    println(`ALG-P-30_섬_연결하기`().solution(
         4,
         arrayOf(
             intArrayOf(0,1,5), intArrayOf(1,2,3), intArrayOf(2,3,3), intArrayOf(3,1,2), intArrayOf(3,0,4))
     )) // 9
-    println(ConnectTheIslands().solution(
+    println(`ALG-P-30_섬_연결하기`().solution(
         5,
         arrayOf(
             intArrayOf(0,1,5), intArrayOf(1,2,3), intArrayOf(2,3,3), intArrayOf(3,1,2), intArrayOf(3,0,4), intArrayOf(2,4,6), intArrayOf(4,0,7))
     )) // 15
-    println(ConnectTheIslands().solution(
+    println(`ALG-P-30_섬_연결하기`().solution(
         7,
         arrayOf(
             intArrayOf(2,3,7), intArrayOf(3,6,13), intArrayOf(3,5,23), intArrayOf(5,6,25),
             intArrayOf(0,1,29), intArrayOf(1,5,34), intArrayOf(1,2,35), intArrayOf(4,5,53), intArrayOf(0,4,75))
     )) // 159
-    println(ConnectTheIslands().solution(
+    println(`ALG-P-30_섬_연결하기`().solution(
         5,
         arrayOf(
             intArrayOf(0, 1, 1), intArrayOf(3, 4, 1), intArrayOf(1, 2, 2), intArrayOf(2, 3, 4))
     )) // 8
-    println(ConnectTheIslands().solution(
+    println(`ALG-P-30_섬_연결하기`().solution(
         4,
         arrayOf(
             intArrayOf(0,1,1),intArrayOf(0,2,2),intArrayOf(2,3,1))
     )) // 4
-    println(ConnectTheIslands().solution(
+    println(`ALG-P-30_섬_연결하기`().solution(
         5,
         arrayOf(
             intArrayOf(0, 1, 1), intArrayOf(0, 2, 2), intArrayOf(1, 2, 5), intArrayOf(1, 3, 3), intArrayOf(2, 3, 8), intArrayOf(3, 4, 1))
     )) // 7
-    println(ConnectTheIslands().solution(
+    println(`ALG-P-30_섬_연결하기`().solution(
         6,
         arrayOf(
             intArrayOf(0, 1, 5), intArrayOf(0, 3, 2), intArrayOf(0, 4, 3), intArrayOf(1, 4, 1),
             intArrayOf(3, 4, 10), intArrayOf(1, 2, 2), intArrayOf(2, 5, 3), intArrayOf(4, 5, 4))
     )) // 11
-    println(ConnectTheIslands().solution(
+    println(`ALG-P-30_섬_연결하기`().solution(
         5,
         arrayOf(
             intArrayOf(0, 1, 1), intArrayOf(3, 1, 1), intArrayOf(0, 2, 2), intArrayOf(0, 3, 2), intArrayOf(0, 4, 100))

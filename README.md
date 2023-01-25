@@ -77,12 +77,12 @@
 |문제|Java|Kotlin|
 |:--|:--:|:--:|
 |숫자게임|[2022.08.14](./programmers-md/programmers-java-md/programmers-java-lv3/number-game.md)| X |
-|가장 긴 팰린드롬|  | [2022.08.20](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/long-palindrom.md) |
-|코딩 테스트 공부||[2022.09.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/studying_for_coding_test.md)|
-|입국심사||[2022.09.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/Immigration.md)|
-|풍선 터트리기||[2022.10.19](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/PoppingBallons.md)|
-|스타 수열||[2022.11.12](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/StarSequence.md)|
-|숫자 타자 대회||[2022.11.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/NumberTypingContest.md)|
-|단어 변환||[2022.12.25](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ChangeWord.md)|
-|섬 연결하기||[2022.12.31](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ConnectTheIslands.md)|
-|합승 택시 요금||[2022.01.07](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ASharedTaxiFare.md)|
+|가장 긴 팰린드롬|  | [2022.08.20](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-2_%EA%B0%80%EC%9E%A5_%EA%B8%B4_%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC.md) |
+|코딩 테스트 공부||[2022.09.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-3_%EC%BD%94%EB%94%A9_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B3%B5%EB%B6%80.md)|
+|입국심사||[2022.09.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-4_%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC.md)|
+|풍선 터트리기||[2022.10.19](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-18_%ED%92%8D%EC%84%A0%20%ED%84%B0%ED%8A%B8%EB%A6%AC%EA%B8%B0.md)|
+|스타 수열||[2022.11.12](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-22_%EC%8A%A4%ED%83%80%20%EC%88%98%EC%97%B4.md)|
+|숫자 타자 대회||[2022.11.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-24_%EC%88%AB%EC%9E%90_%ED%83%80%EC%9E%90_%EB%8C%80%ED%9A%8C.md)|
+|단어 변환||[2022.12.25](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-29_%EB%8B%A8%EC%96%B4_%EB%B3%80%ED%99%98.md)|
+|섬 연결하기||[2022.12.31](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-30_%EC%84%AC_%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0.md)|
+|합승 택시 요금||[2022.01.07](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-31_%ED%95%A9%EC%8A%B9_%ED%83%9D%EC%8B%9C_%EC%9A%94%EA%B8%88.md)|

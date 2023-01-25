@@ -1,6 +1,6 @@
 package src.main.kotlin
 
-class ChangeWord {
+class `ALG-P-29_단어_변환` {
     lateinit var target: String
     lateinit var words: Array<String>
 
@@ -40,6 +40,6 @@ class ChangeWord {
 }
 
 private fun main() {
-    println(ChangeWord().solution("hit","cog", arrayOf("hot", "dot", "dog", "lot", "log", "cog"))) // 정답: 4
-    println(ChangeWord().solution("hit","cog", arrayOf("hot", "dot", "dog", "lot", "log"))) // 정답: 0
+    println(`ALG-P-29_단어_변환`().solution("hit","cog", arrayOf("hot", "dot", "dog", "lot", "log", "cog"))) // 정답: 4
+    println(`ALG-P-29_단어_변환`().solution("hit","cog", arrayOf("hot", "dot", "dog", "lot", "log"))) // 정답: 0
 }

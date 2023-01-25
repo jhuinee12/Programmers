@@ -40,7 +40,7 @@ import java.util.*;
  * 입출력 예 #2
  *  B 팀원들을 어떤 순서로 출전시켜도 B팀의 승점은 0점입니다.
  */
-public class JavaNumberGame {
+public class ALG_P_1_숫자_게임 {
 
     /**
      * @param A A팀의 출전 순서
@@ -109,7 +109,7 @@ public class JavaNumberGame {
 
     public static void main(String args[]) {
 
-        JavaNumberGame numberGameJ = new JavaNumberGame();
+        ALG_P_1_숫자_게임 numberGameJ = new ALG_P_1_숫자_게임();
 
         int[] a = {5,1,3,7};
         int[] b = {2,2,6,8};

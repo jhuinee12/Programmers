@@ -2,7 +2,7 @@ package src.main.kotlin
 
 import java.util.*
 
-class ASharedTaxiFare {
+class `ALG-P-31_합승_택시_요금` {
     /**
      * @n 지점의 개수
      * @s 출발지점
@@ -101,17 +101,17 @@ class ASharedTaxiFare {
 }
 
 private fun main() {
-    println(ASharedTaxiFare().solution(6,4,6,2,
+    println(`ALG-P-31_합승_택시_요금`().solution(6,4,6,2,
         arrayOf(
             intArrayOf(4, 1, 10), intArrayOf(3, 5, 24), intArrayOf(5, 6, 2), intArrayOf(3, 1, 41), intArrayOf(5, 1, 24), intArrayOf(4, 6, 50), intArrayOf(2, 4, 66), intArrayOf(2, 3, 22), intArrayOf(1, 6, 25)
         )
     )) // 82
-    println(ASharedTaxiFare().solution(7, 3, 4, 1,
+    println(`ALG-P-31_합승_택시_요금`().solution(7, 3, 4, 1,
         arrayOf(
             intArrayOf(5, 7, 9), intArrayOf(4, 6, 4), intArrayOf(3, 6, 1), intArrayOf(3, 2, 3), intArrayOf(2, 1, 6)
         )
     )) // 14
-    println(ASharedTaxiFare().solution(6,4, 5, 6,
+    println(`ALG-P-31_합승_택시_요금`().solution(6,4, 5, 6,
         arrayOf(
             intArrayOf(2,6,6), intArrayOf(6,3,7), intArrayOf(4,6,7), intArrayOf(6,5,11), intArrayOf(2,5,12), intArrayOf(5,3,20), intArrayOf(2,4,8), intArrayOf(4,3,9)
         )

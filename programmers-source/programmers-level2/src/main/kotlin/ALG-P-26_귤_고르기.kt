@@ -1,6 +1,6 @@
 package main.kotlin
 
-class PickingTangerines {
+class `ALG-P-26_귤_고르기` {
     fun solution(k: Int, tangerine: IntArray): Int {
         var index = 0
         var sum = 0

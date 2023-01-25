@@ -4,7 +4,7 @@ package main.kotlin
  * Title: 피보나치 수
  * Url: https://school.programmers.co.kr/learn/courses/30/lessons/12945
  */
-class Fibonacci {
+class `ALG-P-13_피보나치 수` {
     fun solution(n: Int): Int {
         val nums = ArrayList<Int>()
 
@@ -20,6 +20,6 @@ class Fibonacci {
 }
 
 private fun main() {
-    println(Fibonacci().solution(3))    // 2
-    println(Fibonacci().solution(5))    // 5
+    println(`ALG-P-13_피보나치 수`().solution(3))    // 2
+    println(`ALG-P-13_피보나치 수`().solution(5))    // 5
 }

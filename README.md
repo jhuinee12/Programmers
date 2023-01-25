@@ -20,7 +20,7 @@
 |문자열을 정수로 바꾸기|[2020.10.26](./programmers-md/programmers-java-md/programmers-java-lv1/replace%20a%20string%20with%20an%20integer.md)|[2021.03.17](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv1/Turn%20a%20string%20into%20an%20integer.md)|
 |수박수박수박수박수박수?|[2020.10.17](./programmers-md/programmers-java-md/programmers-java-lv1/watermelon-clap.md)|[2021.05.01](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv1/watermelon-clap.md)|
 |서울에서 김서방 찾기|[2020.11.07](./programmers-md/programmers-java-md/programmers-java-lv1/Finding%20Kim%20Seobang%20in%20Seoul.md)|[2021.09.23](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv1/Finding%20Kim%20Seobang%20in%20Seoul.md)|
-|소수 찾기|[2021.01.17](./programmers-md/programmers-java-md/programmers-java-lv2/prime%20number%20finding.md)||
+|소수 찾기|[2021.01.17](./programmers-md/programmers-java-md/programmers-java-lv1/ALG_P_0_%EC%86%8C%EC%88%98%EC%B0%BE%EA%B8%B0.md)||
 |문자열 다루기 기본|[2020.10.24](./programmers-md/programmers-java-md/programmers-java-lv1/string%20handling%20basic.md)|[2021.04.29](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv1/string%20handling%20basics.md)|
 |문자열 내림차순으로 배치하기|[2021.01.20](./programmers-md/programmers-java-md/programmers-java-lv1/arrange%20in%20descending%20order%20of%20strings.md)|[2021.09.24](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv1/arrange%20in%20descending%20order%20of%20strings.md)|
 |문자열 내 마음대로 정렬하기|[2021.01.24](./programmers-md/programmers-java-md/programmers-java-lv1/Align%20the%20string%20at%20my%20disposal.md)|[2022.01.05](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv1/sort%20randomly%20within%20a%20string.md)|
@@ -50,27 +50,27 @@
 ## Level 2
 |문제|Java|Kotlin|
 |:--|:--:|:--:|
-|124 나라의 숫자|[2021.04.30](./programmers-md/programmers-java-md/programmers-java-lv2/124%20countries'%20numbers.md)||
-|피로도||[2022.10.01](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/fatigue.md)|
-|기능개발|[2021.01.26](./programmers-md/programmers-java-md/programmers-java-lv2/develop%20function.md)||
-|프린터|[2021.01.26](./programmers-md/programmers-java-md/programmers-java-lv2/printer.md)||
-|전화번호 목록|[2021.01.27](./programmers-md/programmers-java-md/programmers-java-lv2/telephone%20number%20list.md)||
-|행렬 테두리 회전하기||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/RotateMatrixBorders.md)|
-|예상 대진표||[2022.10.18](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ExpectedDraw.md)|
-|멀리 뛰기||[2022.10.11](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/JumpFar.md)|
-|카펫||[2022.10.14](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/Carpet.md)|
-|다리를 지나는 트럭|[2021.02.28](./programmers-md/programmers-java-md/programmers-java-lv2/a%20truck%20that%20runs%20through%20a%20bridge.md)||
-|H-Index||[2022.10.05](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/H-Index.md)|
-|위장|[2021.02.07](./programmers-md/programmers-java-md/programmers-java-lv2/Camouflage.md)||
-|주식가격|[2021.01.27](./programmers-md/programmers-java-md/programmers-java-lv2/stock%20price.md)||
-|점프와 순간 이동|[2022.10.02](./programmers-md/programmers-java-md/programmers-java-lv2/jump_and_teleport.md)|X|
-|이진 변환 반복하기||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/RepeatBinaryTransformation.md)|
-|최댓값과 최솟값||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/MaximumAndMinimum.md)|
-|피보나치수||[2022.10.12](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/Fibonacci.md)|
-|JadenCase 문자열 만들기||[2022.10.13](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/JadenCaseStrings.md)|
-|k진수에서 소수 개수 구하기||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/FindTheNumberOfDecimalsInKNumber.md)|
-|귤 고르기||[2022.11.28](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/PickingTangerines.md)|
-|N개의 최소공배수||[2022.11.30](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/LeastCommonMultiple.md)|
+|124 나라의 숫자|[2021.04.30](./programmers-md/programmers-java-md/programmers-java-lv2/ALG_P_0_124_%EB%82%98%EB%9D%BC%EC%9D%98_%EC%88%AB%EC%9E%90.md)||
+|피로도||[2022.10.01](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-5_%ED%94%BC%EB%A1%9C%EB%8F%84.md)|
+|기능개발|[2021.01.26](./programmers-md/programmers-java-md/programmers-java-lv2/ALG_P_0_%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.md)||
+|프린터|[2021.01.26](./programmers-md/programmers-java-md/programmers-java-lv2/ALG_P_0_%ED%94%84%EB%A6%B0%ED%84%B0.md)||
+|전화번호 목록|[2021.01.27](./programmers-md/programmers-java-md/programmers-java-lv2/ALG_P_0_%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8_%EB%AA%A9%EB%A1%9D.md)||
+|행렬 테두리 회전하기||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-7_%ED%96%89%EB%A0%AC_%ED%85%8C%EB%91%90%EB%A6%AC_%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0.md)|
+|예상 대진표||[2022.10.18](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-19_%EC%98%88%EC%83%81%20%EB%8C%80%EC%A7%84%ED%91%9C.md)|
+|멀리 뛰기||[2022.10.11](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-12_%EB%A9%80%EB%A6%AC_%EB%9B%B0%EA%B8%B0.md)|
+|카펫||[2022.10.14](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-15_%EC%B9%B4%ED%8E%AB.md)|
+|다리를 지나는 트럭|[2021.02.28](./programmers-md/programmers-java-md/programmers-java-lv2/ALG_P_0_%EB%8B%A4%EB%A6%AC%EB%A5%BC_%EC%A7%80%EB%82%98%EB%8A%94_%ED%8A%B8%EB%9F%AD.md)||
+|H-Index||[2022.10.05](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-8_H-Index.md)|
+|위장|[2021.02.07](./programmers-md/programmers-java-md/programmers-java-lv2/ALG_P_0_%EC%9C%84%EC%9E%A5.md)||
+|주식가격|[2021.01.27](./programmers-md/programmers-java-md/programmers-java-lv2/ALG_P_0_%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9.md)||
+|점프와 순간 이동|[2022.10.02](./programmers-md/programmers-java-md/programmers-java-lv2/ALG_P_6_%EC%A0%90%ED%94%84%EC%99%80_%EC%88%9C%EA%B0%84_%EC%9D%B4%EB%8F%99.md)|X|
+|이진 변환 반복하기||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-10_%EC%9D%B4%EC%A7%84_%EB%B3%80%ED%99%98_%EB%B0%98%EB%B3%B5%ED%95%98%EA%B8%B0.md)|
+|최댓값과 최솟값||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-9_%EC%B5%9C%EB%8C%93%EA%B0%92%EA%B3%BC_%EC%B5%9C%EC%86%9F%EA%B0%92.md)|
+|피보나치수||[2022.10.12](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-13_%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%EC%88%98.md)|
+|JadenCase 문자열 만들기||[2022.10.13](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-14_JadenCase_%EB%AC%B8%EC%9E%90%EC%97%B4_%EB%A7%8C%EB%93%A4%EA%B8%B0.md)|
+|k진수에서 소수 개수 구하기||[2022.10.06](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-11_K%EC%A7%84%EC%88%98%EC%97%90%EC%84%9C_%EC%86%8C%EC%88%98_%EA%B0%9C%EC%88%98_%EA%B5%AC%ED%95%98%EA%B8%B0.md)|
+|귤 고르기||[2022.11.28](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-26_%EA%B7%A4_%EA%B3%A0%EB%A5%B4%EA%B8%B0.md)|
+|N개의 최소공배수||[2022.11.30](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv2/ALG-P-28_N%EA%B0%9C%EC%9D%98_%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98.md)|
 
 
 ## Level 3

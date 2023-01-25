@@ -1,7 +1,6 @@
 package main.kotlin
 
 import java.util.*
-import kotlin.collections.ArrayList
 
 /**
  * Title    : 피로도

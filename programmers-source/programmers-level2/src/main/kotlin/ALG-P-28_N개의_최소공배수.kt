@@ -2,7 +2,7 @@ package main.kotlin
 
 import java.lang.Integer.min
 
-class LeastCommonMultiple {
+class `ALG-P-28_N개의_최소공배수` {
     fun solution(arr: IntArray): Int {
         var answer = arr
 
@@ -32,9 +32,9 @@ class LeastCommonMultiple {
 }
 
 private fun main() {
-    println(LeastCommonMultiple().solution(intArrayOf(2,6,8,14))) // 정답: 168
-    println(LeastCommonMultiple().solution(intArrayOf(1,2,3))) // 정답: 6
-    println(LeastCommonMultiple().solution(intArrayOf(2,6,8,12))) // 정답: 24
-    println(LeastCommonMultiple().solution(intArrayOf(2,3,4))) // 정답: 12
-    println(LeastCommonMultiple().solution(intArrayOf(2,7,14))) // 정답: 14
+    println(`ALG-P-28_N개의_최소공배수`().solution(intArrayOf(2,6,8,14))) // 정답: 168
+    println(`ALG-P-28_N개의_최소공배수`().solution(intArrayOf(1,2,3))) // 정답: 6
+    println(`ALG-P-28_N개의_최소공배수`().solution(intArrayOf(2,6,8,12))) // 정답: 24
+    println(`ALG-P-28_N개의_최소공배수`().solution(intArrayOf(2,3,4))) // 정답: 12
+    println(`ALG-P-28_N개의_최소공배수`().solution(intArrayOf(2,7,14))) // 정답: 14
 }

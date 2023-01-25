@@ -4,7 +4,7 @@ package main.kotlin
  * Title : 이진 변환 반복하기
  * Url : https://school.programmers.co.kr/learn/courses/30/lessons/70129
  */
-class RepeatBinaryTransformation {
+class `ALG-P-10_이진_변환_반복하기` {
     fun solution(s: String): IntArray {
         var count = 0
         var zero = 0
@@ -23,7 +23,7 @@ class RepeatBinaryTransformation {
 }
 
 private fun main() {
-    println(RepeatBinaryTransformation().solution("110010101001")) // [3,8]
-    println(RepeatBinaryTransformation().solution("01110")) // [3,3]
-    println(RepeatBinaryTransformation().solution("1111111")) // [4,1]
+    println(`ALG-P-10_이진_변환_반복하기`().solution("110010101001")) // [3,8]
+    println(`ALG-P-10_이진_변환_반복하기`().solution("01110")) // [3,3]
+    println(`ALG-P-10_이진_변환_반복하기`().solution("1111111")) // [4,1]
 }

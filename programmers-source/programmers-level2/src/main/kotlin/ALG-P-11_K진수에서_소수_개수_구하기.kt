@@ -11,7 +11,7 @@ import kotlin.math.sqrt
  * 0P
  * P
  */
-class FindTheNumberOfDecimalsInKNumber {
+class `ALG-P-11_K진수에서_소수_개수_구하기` {
     fun solution(n: Int, k: Int): Int {
         var answer = 0
         val transfer = n.toString(k).split("0").filter { it != "" }.map {it.toLong()}
@@ -38,6 +38,6 @@ class FindTheNumberOfDecimalsInKNumber {
 }
 
 private fun main() {
-    println(FindTheNumberOfDecimalsInKNumber().solution(437674, 3)) // 3
-    println(FindTheNumberOfDecimalsInKNumber().solution(110011, 10)) // 2
+    println(`ALG-P-11_K진수에서_소수_개수_구하기`().solution(437674, 3)) // 3
+    println(`ALG-P-11_K진수에서_소수_개수_구하기`().solution(110011, 10)) // 2
 }

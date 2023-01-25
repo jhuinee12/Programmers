@@ -1,6 +1,6 @@
 package src.main.kotlin
 
-class StarSequence {
+class `ALG-P-22_스타 수열` {
     /**
      * 원래 시간초과(14-15번) 났던 이유 :: index의 이동과정을 알기 위해 contains를 사용했음.
      * 굳이 contains를 사용할 필요 없이 가장 마지막 배열의 요소를 확인하면 됨.
@@ -58,9 +58,9 @@ class StarSequence {
 }
 
 private fun main() {
-    println(StarSequence().solution(intArrayOf(0))) // 0
-    println(StarSequence().solution(intArrayOf(5,2,3,3,5,3))) // 4 :: [5,2,5,3], [5,3,3,5]
-    println(StarSequence().solution(intArrayOf(0,3,3,0,7,2,0,2,2,0))) // 8 :: [0,3,3,0,7,0,2,0]
-    println(StarSequence().solution(intArrayOf(0,3,0,3,3,2,3,2,2,0,0,0,0,0,0,3,0,0,3))) // 12 :: 3기준!! [0,3],[0,3],[3,2],[3,2],[0,3],[0,3]
-    println(StarSequence().solution(intArrayOf(1,1,1,1,1,2,1,2,3,2,4))) // 6 :: 2기준!! [1,2],[1,2],[3,2]
+    println(`ALG-P-22_스타 수열`().solution(intArrayOf(0))) // 0
+    println(`ALG-P-22_스타 수열`().solution(intArrayOf(5,2,3,3,5,3))) // 4 :: [5,2,5,3], [5,3,3,5]
+    println(`ALG-P-22_스타 수열`().solution(intArrayOf(0,3,3,0,7,2,0,2,2,0))) // 8 :: [0,3,3,0,7,0,2,0]
+    println(`ALG-P-22_스타 수열`().solution(intArrayOf(0,3,0,3,3,2,3,2,2,0,0,0,0,0,0,3,0,0,3))) // 12 :: 3기준!! [0,3],[0,3],[3,2],[3,2],[0,3],[0,3]
+    println(`ALG-P-22_스타 수열`().solution(intArrayOf(1,1,1,1,1,2,1,2,3,2,4))) // 6 :: 2기준!! [1,2],[1,2],[3,2]
 }

@@ -9,7 +9,7 @@ import kotlin.math.abs
  * Title: 숫자 타자 대회
  * Url: https://school.programmers.co.kr/learn/courses/30/lessons/136797
  */
-class NumberTypingContest {
+class `ALG-P-24_숫자_타자_대회` {
     fun solution(numbers: String): Int {
         var answer = Int.MAX_VALUE
 
@@ -174,8 +174,8 @@ class NumberTypingContest {
 }
 
 private fun main() {
-    println(NumberTypingContest().solution2("1756")) // 10 => 왼손 17, 오른손 56 :: 2+2+2 + 2+2
-    println(NumberTypingContest().solution2("5123")) // 8 => 왼손 123, 오른손 5 :: 2+2+2 + 2+2
-    println(NumberTypingContest().solution2("13000")) // 13 => 2+2+7+1+1
+    println(`ALG-P-24_숫자_타자_대회`().solution2("1756")) // 10 => 왼손 17, 오른손 56 :: 2+2+2 + 2+2
+    println(`ALG-P-24_숫자_타자_대회`().solution2("5123")) // 8 => 왼손 123, 오른손 5 :: 2+2+2 + 2+2
+    println(`ALG-P-24_숫자_타자_대회`().solution2("13000")) // 13 => 2+2+7+1+1
 
 }

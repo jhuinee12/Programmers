@@ -1,6 +1,6 @@
 package src.main.kotlin
 
-class PoppingBalloon {
+class `ALG-P-18_풍선 터트리기` {
 
     fun solution(a: IntArray): Int {
         var answer = 0
@@ -29,6 +29,6 @@ class PoppingBalloon {
 
 private fun main () {
 //    println(PoppingBalloon().solution(intArrayOf(9,-1,-5)))  // 3
-    println(PoppingBalloon().solution(intArrayOf(-16,27,65,-2,58,-92,-71,-68,-61,-33)))  // 6
-    println(PoppingBalloon().solution(intArrayOf(-16,27,65,-2,58,-92,-68,-61,-71,-33)))  // 4 :: -16, -92, -71, -33
+    println(`ALG-P-18_풍선 터트리기`().solution(intArrayOf(-16,27,65,-2,58,-92,-71,-68,-61,-33)))  // 6
+    println(`ALG-P-18_풍선 터트리기`().solution(intArrayOf(-16,27,65,-2,58,-92,-68,-61,-71,-33)))  // 4 :: -16, -92, -71, -33
 }

@@ -85,4 +85,5 @@
 |숫자 타자 대회||[2022.11.27](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-24_%EC%88%AB%EC%9E%90_%ED%83%80%EC%9E%90_%EB%8C%80%ED%9A%8C.md)|
 |단어 변환||[2022.12.25](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-29_%EB%8B%A8%EC%96%B4_%EB%B3%80%ED%99%98.md)|
 |섬 연결하기||[2022.12.31](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-30_%EC%84%AC_%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0.md)|
-|합승 택시 요금||[2022.01.07](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-31_%ED%95%A9%EC%8A%B9_%ED%83%9D%EC%8B%9C_%EC%9A%94%EA%B8%88.md)|
+|합승 택시 요금||[2023.01.07](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-31_%ED%95%A9%EC%8A%B9_%ED%83%9D%EC%8B%9C_%EC%9A%94%EA%B8%88.md)|
+|징검다리 건너기||[2023.02.03](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-32_%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC_%EA%B1%B4%EB%84%88%EA%B8%B0.md)|

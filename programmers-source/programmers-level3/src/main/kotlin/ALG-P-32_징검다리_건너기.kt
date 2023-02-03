@@ -2,14 +2,33 @@ package src.main.kotlin
 
 class `ALG-P-32_징검다리_건너기` {
     fun solution(stones: IntArray, k: Int): Int {
-        var answer = Int.MAX_VALUE
+        var answer = 0
 
-        for (i in 0 until stones.size-k+1) {
-            var max = stones[i]
-            for (j in i+1 until i+k) {
-                if (stones[j] > max) max = stones[j]
+        var max = 200000000
+        var min = 1
+        var mid = (max+min)/2
+
+        while (true) {
+            var cnt = 0
+            val newStones = stones.clone()
+            for (i in stones.indices) {
+                newStones[i] = stones[i]-mid
+
+                if (newStones[i] <= 0) cnt++
+                else cnt = 0
+
+                if (cnt == k) break
             }
-            if (max < answer) answer = max
+
+            if (cnt == k) {
+                answer = mid
+                max = mid
+            } else {
+                min = mid
+            }
+            mid = (min+max) / 2
+
+            if (max == mid || min == mid) break
         }
 
         return answer

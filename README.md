@@ -87,3 +87,4 @@
 |섬 연결하기||[2022.12.31](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-30_%EC%84%AC_%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0.md)|
 |합승 택시 요금||[2023.01.07](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-31_%ED%95%A9%EC%8A%B9_%ED%83%9D%EC%8B%9C_%EC%9A%94%EA%B8%88.md)|
 |징검다리 건너기||[2023.02.03](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-32_%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC_%EA%B1%B4%EB%84%88%EA%B8%B0.md)|
+|등대||[2023.02.11](./programmers-md/programmers-kotlin-md/programmers-kotlin-lv3/ALG-P-33_%EB%93%B1%EB%8C%80.md)|
